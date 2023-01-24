@@ -3,7 +3,7 @@
 # Server creation steps: 
 ```
 cd ~
-cd utrains-project
+cd sfgtrain-project
 mkdir project3
 cd project3
 code Vagrantfile

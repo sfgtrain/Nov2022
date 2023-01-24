@@ -3,7 +3,7 @@
 # Server creation steps: 
 ```
 cd ~
-cd utrains-project
+cd sfgtrain-project
 mkdir project2
 cd project2
 code Vagrantfile
@@ -19,7 +19,7 @@ vagrant ssh
 
 Vagrant.configure("2") do |config|
   # load de centos7 box from vagrant cloud
-  config.vm.box = "utrains/centos7"
+  config.vm.box = "sfgtrain/centos7"
   config.vm.box_version = "5.0"
   config.vm.network "private_network", ip: "192.168.56.32"
   config.vm.provider "virtualbox" do |vb|
